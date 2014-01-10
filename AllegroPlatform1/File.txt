@@ -1,0 +1,21 @@
+Load=[Image]
+[Splash/image1]
+[Splash/image2]
+[Splash/image3]
+
+Load=[Position][Axis][Animation]
+[0 0][1][Fade]
+
+
+LoadIdentity=[TitleMenu]
+
+
+EndLoad=[TitleMenu
+
+inputmanager
+
+for loop
+
+difference of imageWidth and imageWidth / 2
+
+imageWidth - imageWidth / 2 * scale;
